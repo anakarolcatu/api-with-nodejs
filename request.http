@@ -2,7 +2,7 @@ POST http://localhost:4002/products
 content-type: application/json
 
 {
-    "name": "Caneta Pilot",
+    "name": "Caderno 96 folhas",
     "price": 7
 }
 
@@ -23,3 +23,6 @@ Content-Type: application/json
     "name": "Caneta Pilot Vermelha",
     "price": 5.5
 }
+
+###
+DELETE http://localhost:4002/products/8ce16cd0-705f-41b0-a513-ae05b01a0944

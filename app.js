@@ -77,4 +77,13 @@ app.put('/products/:id', (request, response) => {
     return response.json({ message: 'Produto alterado com sucesso' });
 })
 
+//removendo itens
+app.delete('/products/:id', (request, response) => {
+    const { id } = request.params;
+    const productIndex = products.findIndex(product => product.id === id);
+    //após buscar o id, pega esse produto e remove uma posição do index, removendo exatamente esse item encontrado
+    products.splice(productIndex, 1);
+    return response.json({ message: 'Produto removido com sucesso' });
+})
+
 app.listen(4002, () => console.log('Servidor está rodando na porta 4002'));
