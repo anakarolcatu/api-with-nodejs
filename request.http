@@ -1,0 +1,25 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "Caneta Pilot",
+    "price": 7
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/c028c72c-c7df-4f30-9a5d-230823f9e46e
+
+###
+
+PUT http://localhost:4002/products/c028c72c-c7df-4f30-9a5d-230823f9e46e
+Content-Type: application/json
+
+{
+    "name": "Caneta Pilot Vermelha",
+    "price": 5.5
+}
