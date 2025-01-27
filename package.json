@@ -1,0 +1,23 @@
+{
+  "name": "api-with-nodejs",
+  "version": "1.0.0",
+  "description": "inicio de estudos de node criando uma api",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anakarolcatu/api-with-nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Ana Karoline Caturelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anakarolcatu/api-with-nodejs/issues"
+  },
+  "homepage": "https://github.com/anakarolcatu/api-with-nodejs#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
